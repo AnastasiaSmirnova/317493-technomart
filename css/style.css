@@ -1,0 +1,552 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/*
+h1 {
+	font-family: "Cuprum";
+	font-size: 24px;
+	line-height:24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: rbg(255, 255, 255)
+	
+}
+h2 {
+	font-family: "Cuprum";
+	font-size: 36px;
+	line-height:30;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rbg(255, 255, 255)
+}*/
+
+.clearfix:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+.wrap {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}
+
+.page-header {
+	background-color: #f1f5f7;
+	min-height:42px;
+	
+}
+.upper-menu {
+	background-color: #293449;
+	color:#ffffff;
+	
+	
+}
+.navigation-block {
+	background-color: #293449;
+	color:#ffffff;
+	margin-bottom: 60px;
+
+}
+.content {
+	background-color: #ffffff;
+	color:#32425c;
+	
+}
+.logo {
+	width:220px;
+	padding: 10px 40px;
+	float: left;
+	margin-right:20px;
+	height:45px;
+}
+.search {
+	width:140px;
+	float: left;
+	margin-right:120px;
+	
+}
+.favorite {
+	width:120px;
+	float: left;
+	margin-right:20px;
+
+}
+.shop-cart {
+	width:120px;
+	float: left;
+	margin-right:20px;
+}
+
+.oder {
+	width:150px;
+	float:right;
+}
+.page-navigation li {
+	float:left;
+	list-style-type:none;
+	padding: 5px;
+
+}
+.page-navigation li a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	margin:20px 20px;
+	font-size: 17px;
+	
+}
+.information  {
+	margin-top: 45px;
+	padding-left: 50px; 
+}
+
+.information p {
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+	
+}
+.for-user {
+	float:right;
+}
+.user-block {
+	width:300px;
+	float:right;
+}
+.my-menu li  {
+	list-style-type:none;
+	float:left;
+	padding: 5px 10px;
+}
+.my-menu li  a{
+	display:block;
+	float:left;
+}
+
+.user-name-window {
+	background-color:#ffffff;
+}
+.contact-us {
+	float:left;
+	width:270px;
+	font-size: 14px;
+	line-height:24px;
+	
+}
+.materials {
+	float: left;
+	width:260px;
+	background-color: yellow;
+	min-height:80px;
+	padding:20px;
+	margin-right: 20px;
+}
+.tools {
+	float: left;
+	width:260px;
+	min-height: 80px;
+	padding: 20px;
+	margin-right:20px;
+		background-color: yellow;
+
+}
+.equipment {
+	float: right;
+	width:260px;
+	min-height: 80px;
+	padding:20px;
+	margin-bottom: 20px;
+		background-color: yellow;
+
+}
+.pictures-1 {
+	float:left;
+	width:570px;
+	min-height:215px;
+	padding:25px;
+	margin: 20px 20px 0 0;
+	background-color:yellow;
+}
+.pictures-2 {
+	display:none;
+}
+.discount {
+	float: right;
+	width:260px;
+	min-height: 80px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: yellow;
+
+}
+
+
+.deliever {
+	float: right;
+	width:260px;
+	min-height: 80px;
+	padding:20px;
+	background-color:yellow;
+
+	
+}
+.section-choice {
+	margin: 60px 0;
+}
+.popular-goods {
+	background-color:#f7f3ec;
+	min-height:40px;
+}
+.popular-goods p {
+	display:inline-block;
+	float:left;
+	font-size:30px;
+	line-height: 30px;
+	text-transform:uppercase;
+	padding:25px;
+
+	
+}
+.popular-goods a {
+	display:inline-block;
+	float:right;
+	padding:25px;
+
+}
+.popular-items {
+	font-size:0;
+	margin: 20px 0;
+}
+.mouse {
+	display:none;
+}
+.good-item {
+	display:inline-block;
+	width:220px;
+	margin-right:20px;
+	font-size: 18px;
+	vertical-align: top;
+	text-align: center;
+}
+.good-item:last-child {
+margin-right:0;
+}
+.crossed {
+	text-decoration:line-through;
+}
+.popular-manufacturers {
+	background-color:#f7f3ec;
+	min-height:40px;
+	margin:20px 0;
+}
+.popular-manufacturers p {
+	display:inline-block;
+	float:left;
+	font-size:30px;
+	line-height: 30px;
+	text-transform:uppercase;
+	padding:25px;
+
+	
+}
+.popular-manufacturers a {
+	display:inline-block;
+	float:right;
+	padding:25px;
+
+}
+.manufacturer-choice {
+	font-size:0;
+	margin-bottom: 85px;
+}
+
+.manufacturer-name {
+	display:inline-block;
+	width: 220px;
+	min-height:145px;
+	margin-right: 20px;
+	font-size:14px;
+	vertical-align: middle;
+	text-align: center;
+}
+.manufacturer-name:nth-child(4), .manufacturer-name:nth-child(8) {
+	margin-right: 0;
+}
+.service {
+	background-color:#f2f6f8;
+	padding-bottom: 100px;
+}
+.about-service {
+	margin: 65px 0;
+	padding-top:65px;
+}
+.service-item  button {
+	padding:20px;
+    width: 240px;
+}
+
+.service-item {
+	float:left;
+	width:200px;
+	margin-right: 80px;
+	background-color: gray;
+}
+.service-deliever {
+	float:left;
+	background-color:yellow;
+	width:312px;
+}
+.service-garanty{
+	display:none;
+	float:left;
+	background-color:yellow;
+	width:381px;
+
+}
+.service-credit {
+	display:none;
+	float:left;
+	background-color:yellow;
+	width:380px;
+
+}
+.company {
+	background-color:#ffffff;
+	padding-top:80px;
+	padding-bottom:85px;
+}
+.tehnomart-description {
+	float:left;
+	width: 540px;
+}
+.tehnomart-description  li {
+    list-style-type:none;
+}
+.tehnomart-description a {
+	text-decoration:none;
+	padding: 10px 40px;
+	width:140px;
+}
+.way-to {
+	float:right;
+	width: 300px;
+	
+}
+.letter a {
+	text-decoration:none;
+	padding: 10px 40px;
+	width:220px;
+
+}
+.page-footer {
+	background-color:#32425c;
+	color: #f1f5f7;
+	margin-bottom:0;
+}
+.footer-top {
+	padding-bottom:55px;
+}
+.footer-logo {
+	background-color: #ee3643;
+	width:220px;
+}
+.footer-logo a {
+	text-decoration:none;
+	color:#ffffff;
+}
+.footer-contacts {
+	float:left;
+	width:330px;
+}
+.footer-nav {
+	float:right;
+	width:550px;
+}
+.footer-nav li a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	margin:20px 20px;
+	font-size: 18px;
+	
+}
+.footer-nav li {
+	float:left;
+	list-style-type:none;
+	padding: 5px;
+}
+.footer-bottom {
+	background-color:#293449;
+	color:#ffffff;
+	margin-top:0;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.copyright {
+	float:left;
+	width:300px;
+	margin-right:100px;
+}
+.mail-to {
+	float:left;
+	width:140px;
+	
+}
+.creator {
+	float:right;
+	width:110px;
+}
+/* каталог*/
+.content-catalog {
+	margin-bottom: 60px;
+	background-color:#ffffff;
+}
+.catalog-tree ul li {
+	float:left;
+	list-style-type:none;
+	padding: 25px 15px;
+
+}
+.catalog-tree ul:first-child {
+	padding-left: 0;
+}
+
+.catalog-tree li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "PTSans", SanSerif;
+}
+.unit {
+	background-color: #f2f6f8;
+	color:#32425c;
+	font-size: 30px;
+	margin-bottom:20px;
+	padding:30px;
+	width:880px;
+}
+.unit p {
+	display:inline-block;
+	float:left;
+
+}
+.filter {
+	float:left;
+	margin-right:20px;
+	width:220px;
+}
+.filter-name {
+	background-color:#f7f3ec;
+	padding:10px 20px;
+}
+.price-choice {
+	border:none;
+	margin-bottom:25px;
+}
+.slider-gray {
+	background-color:#f7f3ec;
+	margin-bottom: 5px;
+	
+}
+#low-price, #high-price {
+	background-color:#f7f3ec;
+	border:none;
+	
+}
+.manufacturer-list {
+	border:none;
+	background-color:yellow;
+	padding-top: 25px;
+	padding-bottom:25px;
+	border-top: 1px solid #f7f3ec;
+	border-bottom: 1px solid #f7f3ec;
+}
+.manufacturer-legend {
+	padding-left:0;
+	font-family: "PTSans";
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.power {
+	border:none;
+	background-color:gray;
+	margin-top: 25px;
+}
+.power-group {
+	padding-left:0;
+	font-family: "PTSans";
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.show-button {
+	margin-top:75px;
+	font-family:"PTSans";
+	font-size:13px;
+}
+.good-catalog {
+	float:right;
+	width:700px;
+}
+.sorting {
+	float:right;
+	width:660px;
+	background-color:#f7f3ec;
+	padding:10px 20px;
+	margin-bottom: 20px;
+}
+.sort-position {
+	float:left;
+	width:160px;
+}
+.goods-sorting {
+	float:right;
+}
+.goods-sorting  ul li {
+	display: block;
+	float:left;
+	list-style-type:none;
+	padding: 25px 15px;
+
+}
+
+.goods-sorting li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "PTSans", SanSerif;
+}
+.container {
+	font-size:0;
+	margin: 20px 0;
+}
+
+.good-item-catalog {
+	display:inline-block;
+	width:220px;
+	min-height:318px;
+	margin-right:20px;
+	font-size: 18px;
+	vertical-align: top;
+	text-align: center;
+	background-color: #d7c9af;
+	margin-bottom:20px;
+}
+.good-item-catalog:nth-child(3n) {
+margin-right:0;
+}
+.good-description {
+	background-color:#f2f6f8;
+	padding: 65px 0;
+}
+

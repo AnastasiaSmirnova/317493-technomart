@@ -1,0 +1,31 @@
+body {
+	
+}
+
+
+h1 {
+	font-family: "Cuprum";
+	font-size: 24px;
+	line-height:24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: rbg(255, 255, 255)
+	
+}
+h2 {
+	font-family: "Cuprum";
+	font-size: 36px;
+	line-height:30;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rbg(255, 255, 255)
+}
+.manufacturer-choice p {
+	font-family: "Cuprum";
+	font-size: 30px;
+	line-height:30px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: rgb(50, 66, 92)
+
+}

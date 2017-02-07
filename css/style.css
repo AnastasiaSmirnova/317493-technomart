@@ -1,21 +1,42 @@
 body {
 	margin: 0;
 	padding: 0;
+<<<<<<< HEAD
 	font-family: "Cuprum", sans-serif;
 	min-width:960px;
 }
 
 h1 {
 	font-family: "Cuprum", sans-serif;
+=======
+}
+/*
+h1 {
+	font-family: "Cuprum";
+>>>>>>> origin/master
 	font-size: 24px;
 	line-height:24px;
 	font-weight: normal;
 	text-transform: uppercase;
+<<<<<<< HEAD
 	color: rbg(255, 255, 255);
 	
 	
 }
 
+=======
+	color: rbg(255, 255, 255)
+	
+}
+h2 {
+	font-family: "Cuprum";
+	font-size: 36px;
+	line-height:30;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rbg(255, 255, 255)
+}*/
+>>>>>>> origin/master
 
 .clearfix:after {
 	content:"";
@@ -25,28 +46,44 @@ h1 {
 .wrap {
 	width: 940px;
 	margin: 0 auto;
+<<<<<<< HEAD
 	padding: 0 10px 0 10px;
+=======
+	padding: 0 10px;
+>>>>>>> origin/master
 
 }
 
 .page-header {
 	background-color: #f1f5f7;
+<<<<<<< HEAD
 	/*min-height:42px;*/
+=======
+	min-height:42px;
+>>>>>>> origin/master
 	
 }
 .upper-menu {
 	background-color: #293449;
 	color:#ffffff;
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
 	font-size:17px;
 	line-height:18px;
 	color:#ffffff;
+=======
+>>>>>>> origin/master
 	
 	
 }
 .navigation-block {
+<<<<<<< HEAD
 	background-color:#32425c;
+=======
+	background-color: #293449;
+	color:#ffffff;
+>>>>>>> origin/master
 	margin-bottom: 60px;
 
 }
@@ -56,6 +93,7 @@ h1 {
 	
 }
 .logo {
+<<<<<<< HEAD
 	width:120px;
 	padding: 10px 50px;
 	float: left;
@@ -114,10 +152,40 @@ h1 {
 	padding:0;
 	box-shadow:inset 0 -5px 0 0 #293449, 0 0 6px 0 #293449;
 	color:#ffffff;
+=======
+	width:220px;
+	padding: 10px 40px;
+	float: left;
+	margin-right:20px;
+	height:45px;
+}
+.search {
+	width:140px;
+	float: left;
+	margin-right:120px;
+	
+}
+.favorite {
+	width:120px;
+	float: left;
+	margin-right:20px;
+
+}
+.shop-cart {
+	width:120px;
+	float: left;
+	margin-right:20px;
+}
+
+.oder {
+	width:150px;
+	float:right;
+>>>>>>> origin/master
 }
 .page-navigation li {
 	float:left;
 	list-style-type:none;
+<<<<<<< HEAD
 	padding:0;
 	margin:0;
 	
@@ -131,17 +199,33 @@ h1 {
 	padding:20px 30px;
 	font-size: 17px;
 	line-height:17px;
+=======
+	padding: 5px;
+
+}
+.page-navigation li a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	margin:20px 20px;
+	font-size: 17px;
+>>>>>>> origin/master
 	
 }
 .information  {
 	margin-top: 45px;
+<<<<<<< HEAD
 	margin-bottom:45px;
 	
+=======
+	padding-left: 50px; 
+>>>>>>> origin/master
 }
 
 .information p {
 	display: inline-block;
 	float: left;
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
 	
@@ -223,6 +307,30 @@ h1 {
 	color:#32425c;
 	
 	
+=======
+	margin-right: 40px;
+	
+}
+.for-user {
+	float:right;
+}
+.user-block {
+	width:300px;
+	float:right;
+}
+.my-menu li  {
+	list-style-type:none;
+	float:left;
+	padding: 5px 10px;
+}
+.my-menu li  a{
+	display:block;
+	float:left;
+}
+
+.user-name-window {
+	background-color:#ffffff;
+>>>>>>> origin/master
 }
 .contact-us {
 	float:left;
@@ -231,6 +339,7 @@ h1 {
 	line-height:24px;
 	
 }
+<<<<<<< HEAD
 .contact-us p:first-of-type {
 	color:#e9292a;
 	font-size:21px;
@@ -326,10 +435,20 @@ h1 {
 .materials a {
 	background: rgba(221, 160, 40, 0.9);
 	
+=======
+.materials {
+	float: left;
+	width:260px;
+	background-color: yellow;
+	min-height:80px;
+	padding:20px;
+	margin-right: 20px;
+>>>>>>> origin/master
 }
 .tools {
 	float: left;
 	width:260px;
+<<<<<<< HEAD
 	/* min-height: 80px; */
 	/* padding: 20px 20px 20px 20px; */
 	margin-right:20px;
@@ -435,6 +554,30 @@ h1 {
 	background: #ee3643;
 	margin-top:205px;
 	border-radius:4px;
+=======
+	min-height: 80px;
+	padding: 20px;
+	margin-right:20px;
+		background-color: yellow;
+
+}
+.equipment {
+	float: right;
+	width:260px;
+	min-height: 80px;
+	padding:20px;
+	margin-bottom: 20px;
+		background-color: yellow;
+
+}
+.pictures-1 {
+	float:left;
+	width:570px;
+	min-height:215px;
+	padding:25px;
+	margin: 20px 20px 0 0;
+	background-color:yellow;
+>>>>>>> origin/master
 }
 .pictures-2 {
 	display:none;
@@ -442,6 +585,7 @@ h1 {
 .discount {
 	float: right;
 	width:260px;
+<<<<<<< HEAD
 	margin-bottom: 20px;
 	background-color:#85d179;
 	background-image:url("../img/Layer 100.png");
@@ -453,10 +597,20 @@ h1 {
 .discount a {
 	background: rgba(119, 188, 109, 0.9);
 }
+=======
+	min-height: 80px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: yellow;
+
+}
+
+>>>>>>> origin/master
 
 .deliever {
 	float: right;
 	width:260px;
+<<<<<<< HEAD
 	background-color:#f6b22d;
 	background-image:url("../img/Layer 101.png");
 	background-repeat:no-repeat;
@@ -465,14 +619,25 @@ h1 {
 }
 .deliever a{
 	background: rgba(221, 160, 40, 0.9);
+=======
+	min-height: 80px;
+	padding:20px;
+	background-color:yellow;
+
+	
+>>>>>>> origin/master
 }
 .section-choice {
 	margin: 60px 0;
 }
 .popular-goods {
 	background-color:#f7f3ec;
+<<<<<<< HEAD
 	vertical-align:middle;
 	
+=======
+	min-height:40px;
+>>>>>>> origin/master
 }
 .popular-goods p {
 	display:inline-block;
@@ -480,11 +645,15 @@ h1 {
 	font-size:30px;
 	line-height: 30px;
 	text-transform:uppercase;
+<<<<<<< HEAD
 	padding:0;
 	color:#32425c;
 	margin-top: 30px;
 	margin-bottom:30px;
 	margin-left:30px;
+=======
+	padding:25px;
+>>>>>>> origin/master
 
 	
 }
@@ -492,6 +661,7 @@ h1 {
 	display:inline-block;
 	float:right;
 	padding:25px;
+<<<<<<< HEAD
 	width:203px;
 	text-decoration:none;
 	text-align:center;
@@ -504,6 +674,8 @@ h1 {
 	padding-bottom:11px;
 	margin:25px 25px 25px 0;
 	
+=======
+>>>>>>> origin/master
 
 }
 .popular-items {
@@ -514,22 +686,31 @@ h1 {
 	display:none;
 }
 .good-item {
+<<<<<<< HEAD
 	position:relative;
 	display:inline-block;
 	width:218px;
+=======
+	display:inline-block;
+	width:220px;
+>>>>>>> origin/master
 	margin-right:20px;
 	font-size: 18px;
 	vertical-align: top;
 	text-align: center;
+<<<<<<< HEAD
 	background:#ffffff;
 	border:1px solid #f7f3ec;
 	min-height:348px;
+=======
+>>>>>>> origin/master
 }
 .good-item:last-child {
 margin-right:0;
 }
 .crossed {
 	text-decoration:line-through;
+<<<<<<< HEAD
 	color:#999999;
 	margin:10px;
 	font-family:'PTSans', SanSerif;
@@ -592,6 +773,13 @@ margin-right:0;
 	margin:20px 0;
 
 	
+=======
+}
+.popular-manufacturers {
+	background-color:#f7f3ec;
+	min-height:40px;
+	margin:20px 0;
+>>>>>>> origin/master
 }
 .popular-manufacturers p {
 	display:inline-block;
@@ -599,11 +787,15 @@ margin-right:0;
 	font-size:30px;
 	line-height: 30px;
 	text-transform:uppercase;
+<<<<<<< HEAD
 	padding:0;
 	color:#32425c;
 	margin-top: 30px;
 	margin-bottom:30px;
 	margin-left:30px;
+=======
+	padding:25px;
+>>>>>>> origin/master
 
 	
 }
@@ -611,6 +803,7 @@ margin-right:0;
 	display:inline-block;
 	float:right;
 	padding:25px;
+<<<<<<< HEAD
 	width:203px;
 	text-decoration:none;
 	text-align:center;
@@ -657,10 +850,31 @@ margin-right:0;
 }
 .manufacturer-name a img {
 	vertical-align:middle;
+=======
+
+}
+.manufacturer-choice {
+	font-size:0;
+	margin-bottom: 85px;
+}
+
+.manufacturer-name {
+	display:inline-block;
+	width: 220px;
+	min-height:145px;
+	margin-right: 20px;
+	font-size:14px;
+	vertical-align: middle;
+	text-align: center;
+}
+.manufacturer-name:nth-child(4), .manufacturer-name:nth-child(8) {
+	margin-right: 0;
+>>>>>>> origin/master
 }
 .service {
 	background-color:#f2f6f8;
 	padding-bottom: 100px;
+<<<<<<< HEAD
 	
 }
 .about-service {
@@ -680,10 +894,17 @@ margin-right:0;
 	line-height:24px;	
 	
 	
+=======
+}
+.about-service {
+	margin: 65px 0;
+	padding-top:65px;
+>>>>>>> origin/master
 }
 .service-item  button {
 	padding:20px;
     width: 240px;
+<<<<<<< HEAD
 	font-family:"Cuprum", sans-serif;
 	font-size:21px;
 	line-height:30px;
@@ -756,6 +977,21 @@ margin-right:0;
 	line-height:24px;
 }
 
+=======
+}
+
+.service-item {
+	float:left;
+	width:200px;
+	margin-right: 80px;
+	background-color: gray;
+}
+.service-deliever {
+	float:left;
+	background-color:yellow;
+	width:312px;
+}
+>>>>>>> origin/master
 .service-garanty{
 	display:none;
 	float:left;
@@ -778,6 +1014,7 @@ margin-right:0;
 .tehnomart-description {
 	float:left;
 	width: 540px;
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
 }
@@ -833,11 +1070,23 @@ margin-right:0;
 	border-radius:4px;
 }
 
+=======
+}
+.tehnomart-description  li {
+    list-style-type:none;
+}
+.tehnomart-description a {
+	text-decoration:none;
+	padding: 10px 40px;
+	width:140px;
+}
+>>>>>>> origin/master
 .way-to {
 	float:right;
 	width: 300px;
 	
 }
+<<<<<<< HEAD
 .way-to h2 {
 	font-size:30px;
 	line-height:30px;
@@ -869,23 +1118,35 @@ margin-right:0;
 	color:#ffffff;
 	background:#ee3643;
 	border-radius:4px;
+=======
+.letter a {
+	text-decoration:none;
+	padding: 10px 40px;
+	width:220px;
+>>>>>>> origin/master
 
 }
 .page-footer {
 	background-color:#32425c;
 	color: #f1f5f7;
 	margin-bottom:0;
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
 }
 .footer-top {
 	margin:0;
 	padding:0;
+=======
+}
+.footer-top {
+>>>>>>> origin/master
 	padding-bottom:55px;
 }
 .footer-logo {
 	background-color: #ee3643;
 	width:220px;
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
 	box-shadow: inset 0 -5px 0 0 #b52933;
@@ -909,11 +1170,18 @@ margin-right:0;
 	line-height:24px;
 	font-weight:normal;
 	font-family:"Cuprum", SanSerif;
+=======
+}
+.footer-logo a {
+	text-decoration:none;
+	color:#ffffff;
+>>>>>>> origin/master
 }
 .footer-contacts {
 	float:left;
 	width:330px;
 }
+<<<<<<< HEAD
  .footer-nav {
 	 float:right;
 	width:610px;
@@ -944,6 +1212,24 @@ margin-right:0;
 	margin-right:0;
 	margin-left: 50px;
 	
+=======
+.footer-nav {
+	float:right;
+	width:550px;
+}
+.footer-nav li a{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	margin:20px 20px;
+	font-size: 18px;
+	
+}
+.footer-nav li {
+	float:left;
+	list-style-type:none;
+	padding: 5px;
+>>>>>>> origin/master
 }
 .footer-bottom {
 	background-color:#293449;
@@ -951,6 +1237,7 @@ margin-right:0;
 	margin-top:0;
 	padding-top:30px;
 	padding-bottom:30px;
+<<<<<<< HEAD
 	font-family:"Cuprum", SanSerif;
 	font-size: 16px;
 	line-height:18px;
@@ -967,12 +1254,20 @@ margin-right:0;
 	float:left;
 	width: 140px;
     margin-right:110px;	
+=======
+}
+.copyright {
+	float:left;
+	width:300px;
+	margin-right:100px;
+>>>>>>> origin/master
 }
 .mail-to {
 	float:left;
 	width:140px;
 	
 }
+<<<<<<< HEAD
 .mail-to p {
 	margin:0;
 }
@@ -992,6 +1287,11 @@ margin-right:0;
 .creator a {
 	text-decoration: none;
 	color:#ffd180;
+=======
+.creator {
+	float:right;
+	width:110px;
+>>>>>>> origin/master
 }
 /* каталог*/
 .content-catalog {

@@ -1,0 +1,30 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -554,17 +554,28 @@
+ 					<p>Все права защищены</p>
+ 				</div>	
+ 				<div class="footer-social">
++<<<<<<< HEAD
+ 				  <a class="social-btn social-btn-vk" href="#" title="ВКонтакте"><img src="img\.icon-vk copy.png" width="41" height="42" alt="ВКонтакте"></a>
+ 				  <a class="social-btn social-btn-fb" href="#" title="Фейсбук"><img src="img\.icon-facebook copy.png" width="42" height="42" alt="Фейсбук"></a>
+ 				  <a class="social-btn social-btn-inst" href="#" title="Инстаграм"><img src="img\.icon-instagramm copy.png" width="42" height="42" alt="Инстаграм"></a>
++=======
++				  <a class="social-btn social-btn-vk" href="#" title="ВКонтакте"><img src="#" width="20" height="12" alt="ВКонтакте"></a>
++				  <a class="social-btn social-btn-fb" href="#" title="Фейсбук"><img src="#" width="10" height="18" alt="Фейсбук"></a>
++				  <a class="social-btn social-btn-inst" href="#" title="Инстаграм"><img src="#" width="17" height="17" alt="Инстаграм"></a>
++>>>>>>> origin/master
+ 				</div>
+ 				<div class="mail-to">
+ 					<p>Обратная связь:</p>
+ 					<p><a href="mailto:mail@htmlacademy.ru" title="Напишите нам">mail@htmlacademy.ru</a></p> 
+ 				</div>
+ 				<div class="creator">
++<<<<<<< HEAD
+ 				  <p>Разработано-</p>
+ 				  <p><a href="https://htmlacademy.ru" title="На сайт">htmlacademy.ru</a></p>
++=======
++				  <p>Разработано-</p><br>
++				  <a href="https://htmlacademy.ru" title="На сайт">htmlacademy.ru</a>
++>>>>>>> origin/master
+ 				</div>
+ 			</div>
+ 		</div>	

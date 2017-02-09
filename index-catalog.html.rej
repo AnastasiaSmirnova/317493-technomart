@@ -1,0 +1,13 @@
+diff a/index-catalog.html b/index-catalog.html	(rejected hunks)
+@@ -470,7 +470,11 @@
+ 				</div>
+ 				<div class="creator">
+ 				  <p>Разработано-</p><br>
++<<<<<<< HEAD
+ 				  <p><a href="https://htmlacademy.ru" title="На сайт">htmlacademy.ru</a></p>
++=======
++				  <a href="https://htmlacademy.ru" title="На сайт">htmlacademy.ru</a>
++>>>>>>> origin/master
+ 				</div>
+ 			</div>
+ 		</div>	

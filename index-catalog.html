@@ -37,7 +37,7 @@
 				<div class="user-block">
 					<div class="user-name-window clearfix">
 						<p>Равшан Джамшутович</p> 
-						<button type="submit" value="out">Выход</button> 
+						<a href="#" title="Выход"></a> 
 					</div>	
 						<ul class="my-menu">
 							<li>
@@ -87,7 +87,7 @@
 			<nav class="catalog-tree clearfix">
 				<ul>
 					<li>
-						<a href="#" title="Перейти на Главную страницу"><img src="#" width="" height="" alt="Домой">Главная</a> <!-- не должно быть пустых ссылок. Эта ссылка ведет на гдлавную страницу, значит так и нужно писать "Главная". Этой надписи не будет видно за иконкой, а вот если css не загрузится, то она проявится. Не забывает про title для ВСЕХ ссылок -->
+						<a href="#" title="Перейти на Главную страницу"><img src="img/.icon-home.png" width="15" height="12" alt="Домой"></a> <!-- не должно быть пустых ссылок. Эта ссылка ведет на гдлавную страницу, значит так и нужно писать "Главная". Этой надписи не будет видно за иконкой, а вот если css не загрузится, то она проявится. Не забывает про title для ВСЕХ ссылок -->
 					</li>
 					<li><span></span>
 						<a href="#" title="Перейти в КАТАЛОГ">Каталог</a>
@@ -108,26 +108,17 @@
 				<form class="choice" action="#" method="get">
 					<fieldset class="price-choice"> 
 						<legend>ЦЕНА:</legend>
-							<div class="price-sorting"> 
-								<div class="slider-gray">
-									<label for="slider-ruler-1">
-										<input type="range" step="any" min="0" max="30000" value="25000" id="slider-ruler-1">
-									</label>
-									<label for="slider-ruler-2">
-										<input type="range" step="any" min="0" max="30000" value="25000" id="slider-ruler-2">
-									</label>
-									<div class="slider-green">
-										<span class="green-1"></span>
-										<span class="green-2"></span>
-									</div>
+							<div class="range-filter">
+								<div class="range-controls"> 
+									<div class="scale">
+										<div class="bar"></div>
+									</div>	
+									<div class="toggle toggle-min"></div>
+									<div class="toggle toggle-max"></div>		
 								</div>
 								<div class="price-window">
-									<label for="low-price">
-										<input type="text" id="low-price">-
-									</label>
-									<label for="high-price">	
-										<input type="text" id="high-price">
-									</label>
+									<label class="min-price"><input name="min-price" type="text" value="0"></label>
+									<label class="max-price"><span>-</span> <input name="max-price" type="text" value="30000"></label>
 								</div>
 							</div>
 					</fieldset>	
@@ -163,23 +154,27 @@
 			</div>
 			<div class="good-catalog clearfix">
 				<div class="sorting">
-					<p class="sort-position">СОРТИРОВКА</p> 
+					<p class="sort-position">СОРТИРОВКА:</p> 
 					<div class="goods-sorting">
 						<ul>
 							<li>
-								<a href="#" title="сортировать по цене">ПО ЦЕНЕ</a>
+								<a class="active" href="#" title="сортировать по цене">ПО ЦЕНЕ</a>
 							</li>
 							<li>
 								<a href="#" title="сортировать по типу">ПО ТИПУ</a>
 							</li>
 							<li>
 								<a href="#" title="сортировать по функционалу">ПО ФУНКЦИОНАЛУ</a>
-							</li>	
+							</li>
+						</ul>
+					</div>
+					<div class="arrows">	
+						<ul>	
 							<li>
-								<a href="#" title="сортировать по возрастанию"><span></span></a>
+								<a class="for-up" href="#" title="сортировать по возрастанию"><span></span></a>
 							</li>
 							<li>
-								<a href="#" title="сортировать по убыванию"><span></span></a>
+								<a class="for-down" href="#" title="сортировать по убыванию"><span></span></a>
 							</li>	
 						</ul>
 					</div>
@@ -188,7 +183,7 @@
 					<div class="good-item-catalog"> 
 						<div class="item-p"> 
 								<div class="image">
-									<img src="#" width="127" height="112" alt="товар 1"> 
+									<img src="img/snippet-18927 copy 3.png" width="127" height="112" alt="товар 1"> 
 								</div>
 								<div class="mouse">
 									<a class="buy" href="#">КУПИТЬ</a>
@@ -205,7 +200,7 @@
 					<div class="good-item-catalog">
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="144" height="128" alt="товар 2">
+									<img src="img/snippet-945 copy 2.png" width="144" height="128" alt="товар 2">
 								</div>
 								<div class="mouse">
 									<a class="buy" href="#">КУПИТЬ</a>
@@ -219,10 +214,10 @@
 						<p class="crossed">30500 Р.</p>
 						<p class="item-price">25500 Р.</p>
 					</div>
-					<div class="good-item-catalog">
+					<div class="good-item-catalog item-new">
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="127" height="112" alt="товар 3"> 
+									<img src="img/snippet-18927 copy 2.png" width="127" height="112" alt="товар 3"> 
 								</div>
 							<div class="mouse">
 								<a class="buy" href="#">КУПИТЬ</a>
@@ -238,7 +233,7 @@
 					<div class="good-item-catalog">
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="127" height="112" alt="товар 4"> 
+									<img src="img/snippet-18927 copy 3.png" width="127" height="112" alt="товар 4"> 
 								</div>
 							<div class="mouse">
 								<a class="buy" href="#">КУПИТЬ</a>
@@ -252,10 +247,10 @@
 						<p class="crossed">22500 Р.</p>
 						<p class="item-price">15500 Р.</p>
 					</div>
-					<div class="good-item-catalog">	
+					<div class="good-item-catalog item-new">	
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="144" height="128" alt="товар 5"> 
+									<img src="img/snippet-945 copy 2.png" width="144" height="128" alt="товар 5"> 
 								</div>
 								<div class="mouse">
 									<a class="buy" href="#">КУПИТЬ</a>
@@ -272,7 +267,7 @@
 					<div class="good-item-catalog">
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="127" height="112" alt="товар 6">
+									<img src="img/snippet-18927 copy 2.png" width="127" height="112" alt="товар 6">
 								</div>
 								<div class="mouse">
 									<a class="buy" href="#">КУПИТЬ</a>
@@ -285,10 +280,10 @@
 						</div>	
 						<p class="item-price">12500 Р.</p>
 					</div>
-					<div class="good-item-catalog">
+					<div class="good-item-catalog item-new">
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="127" height="112" alt="товар 7">
+									<img src="img/snippet-18927 copy 3.png" width="127" height="112" alt="товар 7">
 								</div>
 								<div class="mouse">
 									<a class="buy" href="#">КУПИТЬ</a>
@@ -305,7 +300,7 @@
 					<div class="good-item-catalog">
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="144" height="128" alt="товар 8">
+									<img src="img/snippet-945 copy 2.png" width="144" height="128" alt="товар 8">
 								</div>
 								<div class="mouse">
 									<a class="buy" href="#">КУПИТЬ</a>
@@ -322,7 +317,7 @@
 					<div class="good-item-catalog">
 						<div class="item-p">
 								<div class="image">
-									<img src="#" width="127" height="112" alt="товар 9">
+									<img src="img/snippet-18927 copy 2.png" width="127" height="112" alt="товар 9">
 								</div>
 								<div class="mouse">
 									<a class="buy" href="#">КУПИТЬ</a>
@@ -337,10 +332,10 @@
 					</div>
 				</div>
 				<div class="page-number">
-					<a href="#" title="страница 1">1</a> 
+					<a class="pressed" href="#" title="страница 1">1</a> 
 					<a href="#" title="страница 2">2</a>
 					<a href="#" title="страница 3">3</a>
-					<a href="#" title="следующая">СЛЕДУЮЩАЯ</a>
+					<a class="next-page" href="#" title="следующая">СЛЕДУЮЩАЯ</a>
 				</div>
 			</div>	
 		</div>
@@ -404,16 +399,16 @@
 					<p>Все права защищены</p>
 				</div>	
 				<div class="footer-social">
-				  <a class="social-btn social-btn-vk" href="#" title="ВКонтакте"><img src="img\.icon-vk copy.png" width="41" height="42" alt="ВКонтакте"></a>
-				  <a class="social-btn social-btn-fb" href="#" title="Фейсбук"><img src="img\.icon-facebook copy.png" width="42" height="42" alt="Фейсбук"></a>
-				  <a class="social-btn social-btn-inst" href="#" title="Инстаграм"><img src="img\.icon-instagramm copy.png" width="42" height="42" alt="Инстаграм"></a>
+				  <a class="social-btn social-btn-vk" href="#" title="ВКонтакте"></a>
+				  <a class="social-btn social-btn-fb" href="#" title="Фейсбук"></a>
+				  <a class="social-btn social-btn-inst" href="#" title="Инстаграм"></a>
 				</div>
 				<div class="mail-to">
 					<p>Обратная связь:</p>
 					<p><a href="mailto:mail@htmlacademy.ru" title="Напишите нам">mail@htmlacademy.ru</a></p> 
 				</div>
 				<div class="creator">
-				  <p>Разработано-</p><br>
+				  <p>Разработано-</p>
 				  <p><a href="https://htmlacademy.ru" title="На сайт">htmlacademy.ru</a></p>
 				</div>
 			</div>
